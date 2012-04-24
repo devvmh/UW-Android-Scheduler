@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:contentDescription="@string/add_courses"
+        android:id="@+id/add_courses_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add_courses_search_box"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/add_courses_search_button"
+        android:src="@drawable/ic_menu_add" />
+
+    <ImageButton
+        android:contentDescription="@string/search"
+        android:id="@+id/add_courses_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add_courses_add_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:enabled="false"
+        android:src="@drawable/ic_menu_search" />
+
+    <EditText
+        android:id="@+id/add_courses_search_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/add_courses_add_button"
+        android:hint="@string/course_name_filter" >
+    </EditText>
+
+    <ListView
+        android:id="@+id/search_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gestalt_space" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/centre_aligner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_courses_search_box"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/end_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_courses_add_button"
+        android:text="@string/end_time_string" />
+
+    <Button
+        android:id="@+id/start_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_courses_search_box"
+        android:text="@string/start_time_string" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/end_time_button"
+        android:layout_toLeftOf="@+id/end_time_button"
+        android:layout_toRightOf="@+id/start_time_button"
+        android:text="@string/choose_times"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/gestalt_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/start_time_button"
+        android:text=""
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/add_courses_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible" />
+</RelativeLayout>

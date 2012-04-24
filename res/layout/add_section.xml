@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/centre_aligner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/sections_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lab_checkbox" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/course_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/add_section_starttime_chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/course_title"
+        android:text="@string/start_time_string" />
+
+    <CheckBox
+        android:id="@+id/lab_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_section_starttime_chooser"
+        android:text="@string/label_lab" />
+
+    <TextView
+        android:id="@+id/times_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add_section_starttime_chooser"
+        android:layout_alignTop="@+id/add_section_starttime_chooser"
+        android:layout_toLeftOf="@+id/add_section_endtime_chooser"
+        android:layout_toRightOf="@+id/add_section_starttime_chooser"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_times"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/add_section_endtime_chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lab_checkbox"
+        android:layout_alignParentRight="true"
+        android:text="@string/end_time_string" />
+
+    <CheckBox
+        android:id="@+id/tut_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_section_endtime_chooser"
+        android:text="@string/label_tut" />
+
+    <CheckBox
+        android:id="@+id/lec_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_section_endtime_chooser"
+        android:layout_centerHorizontal="true"
+        android:text="@string/label_lec" />
+
+</RelativeLayout>

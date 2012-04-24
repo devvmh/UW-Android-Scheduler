@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dmhoward\'s Skedulr</string>
+	<string name="course_catalog">Course Catalog</string>
+	<string name="add_section">Add a Section</string>
+	<string name="add_course">Try to add the course in the search box</string>
+	<string name="search">Search the catalog of courses</string>
+	
+    <string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="create_account">Create Account</string>
+	<string name="cancel">Cancel</string>
+	<string name="repeat_password">Repeat Password</string>
+	<string name="name">Name</string>
+	
+	<string name="save_selections">Save Choices to Server</string>
+	<string name="logout">Save and Logout</string>
+	
+	<string name="label_lab">LAB</string>
+	<string name="label_lec">LEC</string>
+	<string name="label_tut">TUT</string>
+	<string name="choose_times">Choose Start/End Times</string>
+	<string name="course_name_filter">Filter by course code</string>
+	<string name="start_time_string">8:30 AM</string>
+	<string name="end_time_string">9:00 PM</string>
+	
+	<string name="ok">OK</string>
+	<string name="delete">Delete</string>
+	<string name="logout_anyway">Couldn\'t save courses. Do you want to logout anyway?</string>
+	
+	<string name="want_to_add">Want to add a course?</string>
+	<string name="add_courses">Add Courses</string>
+	
+	<string name="warning_at_6">Warning: You have enrolled in 6 courses!</string>
+	<string name="sorry_at_6">Sorry, but you can\'t have more than 6 courses.</string>
+	<string name="no_section_matches">No sections match your filter.</string>
+	<string name="no_course_matches">No courses match your filter.</string>
+	<string name="courses_saved">Courses saved to server</string>
+	<string name="error_saving">Error saving courses</string>
+	<string name="error_retrieving_choices">Couldn\'t retrieve choices from server</string>
+	<string name="choices_retrieved">Choices retrieved from server</string>
+	<string name="course_not_found">Course not found</string>
+	<string name="no_courses_yet">No courses loaded yet</string>
+	<string name="courses_synced">Courses synced with server</string>
+	<string name="passwords_4">Passwords should be at least 4 characters</string>
+	<string name="usernames_4">Usernames should be at least 4 characters</string>
+	<string name="passwords_match">Passwords don\'t match!</string>
+	<string name="no_name">Please enter your name!</string>
+	<string name="account_exists">That account already exists, sorry.</string>
+	<string name="account_error">Our server couldn\'t create that account, sorry.</string>
+	<string name="cant_connect">Couldn\'t connect to the Internet</string>
+	<string name="cant_login_password">Couldn\'t login. Is your password correct?</string>
+</resources>

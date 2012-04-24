@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/create_account_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/leftmargin"
+        android:inputType="textPersonName"
+        android:hint="@string/name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/create_account_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/create_account_name"
+        android:layout_toRightOf="@+id/leftmargin"
+        android:inputType="text"
+        android:hint="@string/username"/>
+    
+    <EditText
+        android:id="@+id/create_account_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/create_account_username"
+        android:layout_toRightOf="@+id/leftmargin"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+    <EditText
+        android:id="@+id/create_account_repeat_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/create_account_password"
+        android:layout_toRightOf="@+id/leftmargin"
+        android:inputType="textPassword"
+        android:hint="@string/repeat_password" />
+    
+    <Button
+        android:id="@+id/create_account_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/leftmargin"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/create_account_repeat_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/create_account_repeat_password"
+        android:layout_toRightOf="@+id/centrealignment"
+        android:text="@string/create_account" />
+
+    <TextView
+        android:id="@+id/centrealignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/create_account_button"
+        android:layout_alignBottom="@+id/create_account_button"
+        android:layout_centerHorizontal="true"
+        android:text=""/>
+    
+    <ProgressBar        
+        android:id="@+id/create_account_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

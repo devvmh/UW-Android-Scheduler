@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cs349_w12/!svn/ver/7186/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util
+END
+CalendarView.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cs349_w12/!svn/ver/7186/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/CalendarView.java
+END
+ServerInteraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/cs349_w12/!svn/ver/7186/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/ServerInteraction.java
+END
+AccountParserCallBacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/AccountParserCallBacks.java
+END
+PastSelectionParserCallBacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/PastSelectionParserCallBacks.java
+END
+CourseParserCallBacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/CourseParserCallBacks.java
+END
+HttpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/util/HttpUtil.java
+END

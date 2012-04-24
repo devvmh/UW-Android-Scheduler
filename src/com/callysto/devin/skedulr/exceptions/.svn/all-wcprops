@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions
+END
+DuplicateAccountError.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/DuplicateAccountError.java
+END
+PasswordException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/PasswordException.java
+END
+SaveCoursesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/SaveCoursesException.java
+END
+GetCoursesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/GetCoursesException.java
+END
+HttpPostException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/HttpPostException.java
+END
+LoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/LoginException.java
+END
+AccountDeletionError.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/AccountDeletionError.java
+END
+AccountCreationError.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/cs349_w12/!svn/ver/6496/dmhoward/a04/starter/a04/src/com/callysto/devin/skedulr/exceptions/AccountCreationError.java
+END
